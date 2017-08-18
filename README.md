@@ -51,10 +51,16 @@ The yellow light keeps on blinking until the API call to AWS Rekognition is succ
 You need Git bash or an equivalent to do the below commands. 
 
 Copy all files in laptop folder to pi folder:
+
+```
 scp -P 2222 * pi@10.20.11.235:foldername
+```
 
 Connect to rPi: 
+
+```
 ssh pi@10.20.11.235 -p 2222
+```
 
 The Pi that was configured for this project is listening for SSH on port 2222 for security purposes. 
 Remove the -p 2222 on the commands if you are using a fresh raspberry pi. 
@@ -77,5 +83,6 @@ There are several ways that you can improve this project.
 * Write a script or find some method to quickly and conveniently upload new faces and names to the AWS Rekognition Collection. 
 
 ## Authors
-Joon Park
-Andrew Luo
+[Joon Park](https://joonyoungpark.github.io/)
+
+[Andrew Luo](https://andrew-luo1.github.io/)
