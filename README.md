@@ -87,4 +87,5 @@ Watch our demo video of the final prototype [here!](https://youtu.be/uYNlw-RQ0Lo
 
 ## Authors
 [Joon Park](https://joonyoungpark.github.io/)
+
 [Andrew Luo](https://andrew-luo1.github.io/)
