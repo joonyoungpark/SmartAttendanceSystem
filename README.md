@@ -24,20 +24,23 @@ sudo apt-get install fswebcam
 sudo apt-get install python-pygame
 ```
 
-Also consider turning up the volume on your raspberry pi. There is a nice tool to do this called alsamixer.
+Also consider turning up the volume on your raspberry pi. T	here is a nice tool to do this called alsamixer.
 
-### Electronic Configuration
+## Electronic Configuration
 Have the female sides of the connectors connected to the raspberry pi. 
 For each LED and for the button, there must be one connector connected to a GND (ground) pin, and one connected to a GPIO (general purpose input/output) pin. 
 The code here uses BCM numbering, so the LEDs and button are numbered by GPIO port. For example, and LED connected to GPIO17 would be numbered as 17.
+
 ![alt text](https://github.com/joonyoungpark/SmartAttendanceSystem/blob/master/images/rbpconfiguration.PNG "rbpblueprint")
 
 The configuration of the breadboard is shown below:
+
 ![alt text](https://github.com/joonyoungpark/SmartAttendanceSystem/blob/master/images/breadboard.PNG "breadboard")
 
 For each light, there is a GPIO pin connected to the jack going directly to the LED. 
 There is a resistor going between the LED and the other jack, which leads to a GND pin. 
 Although it may not be entirely clear, here are some images of where the connectors are inserted into the rPi:
+
 ![alt text](https://github.com/joonyoungpark/SmartAttendanceSystem/blob/master/images/pi.PNG "raspberrypi3")
 
 #### LED implications
@@ -61,8 +64,6 @@ Note that this system is viable. The current runtime can be more than halved if:
 1. The USB webcam is swapped for an official camera module
 2. AWS Polly is replaced for a local text to speech program or an LCD display. 
 3. A stable wifi connection is obtained or the system is hooked up to ethernet cable
-
----
 
 ## Further Improvements
 There are several ways that you can improve this project.
