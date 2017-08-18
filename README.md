@@ -82,7 +82,9 @@ There are several ways that you can improve this project.
 * Ensure that you have a reliable internet connection or connect the system to LAN.
 * Write a script or find some method to quickly and conveniently upload new faces and names to the AWS Rekognition Collection. 
 
+## Demo
+Watch our demo video of the final prototype [here!](https://youtu.be/uYNlw-RQ0Lo) 
+
 ## Authors
 [Joon Park](https://joonyoungpark.github.io/)
-
 [Andrew Luo](https://andrew-luo1.github.io/)
